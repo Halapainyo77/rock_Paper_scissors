@@ -1,1 +1,2 @@
 # rock_Paper_scissors
+For this project, I am working on implementing the knowledge I have gained so far relating to Javascript. I will try to use these basic concepts like different data types( strings, numbers, objects) and create functions from them in order to serve the purpose of making a game of rock paper scissors. I will try to use if, else statements or anything I can think of.
