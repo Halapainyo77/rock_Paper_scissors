@@ -2,15 +2,17 @@ let playerScore = 0;
 let computerScore = 0;
 
 const gameChoices =["rock","paper","scissors"]
-const getComputerChoice = gameChoices[Math.floor(Math.random() * gameChoices.length)];
 
-const playerSelection = prompt ("Rock, paper, or scissors, what do you choose human?").toLowerCase();
-const computerSelection = getComputerChoice;
 
 function playRound() {
+
+
+const getComputerChoice = gameChoices[Math.floor(Math.random() * gameChoices.length)];
+const playerSelection = prompt ("Rock, paper, or scissors, what do you choose human?").toLowerCase();
+const computerSelection = getComputerChoice;
     
-    
-  if (playerSelection == "rock" && computerSelection == "paper") {
+  
+if (playerSelection == "rock" && computerSelection == "paper") {
     computerScore += 1;
     return "Paper beats rock, you lose this round!";
       
