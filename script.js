@@ -61,7 +61,26 @@ if (playerSelection == "rock" && computerSelection == "paper") {
   }
     
   
-    
+function ending(){
+  if (playerScore < computerScore){
+    return "The computers have taken over, you lose!";
+  }
+  else if (playerScore > computerScore){
+    return "You have survived the robotic invasion, you win!";
+  }
+  else if (playerScore = computerScore){
+    return "The robots and humans have reached a stalemate, it's a draw!";
+  }
+}
+
+
+
+
+
+
+
+
+playGame();
       
     
     
