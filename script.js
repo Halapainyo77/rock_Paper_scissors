@@ -73,7 +73,14 @@ function ending(){
   }
 }
 
-
+function playGame() {
+  for (let i = 0; i < 5; i++) {
+  console.log(playRound());
+  console.log(`Your score: ${playerScore}`);
+  console.log(`Computer score: ${computerScore}`);
+  }
+  console.log(ending());
+}
 
 
 
