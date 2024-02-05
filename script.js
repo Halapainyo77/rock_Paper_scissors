@@ -1,3 +1,3 @@
-const getcomputerChoice =["Rock","Paper","Scissors"]
-        const random = Math.floor(Math.random() * getcomputerChoice.length);
-         console.log(random,getcomputerChoice[random]);
+const choice =["Rock","Paper","Scissors"]
+        const getcomputerChoice  = Math.floor(Math.random() * choice.length);
+         console.log(random,choice[random]);
